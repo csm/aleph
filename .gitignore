@@ -11,3 +11,5 @@ dump.rdb
 target/**
 .nrepl*
 /doc
+/.idea
+aleph.iml
