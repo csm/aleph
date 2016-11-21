@@ -1,4 +1,4 @@
-(defproject io.bfpcorporation/aleph "0.4.2-alpha8"
+(defproject io.bfpcorporation/aleph "0.4.2-alpha9"
   :description "a framework for asynchronous communication"
   :repositories {"jboss" "http://repository.jboss.org/nexus/content/groups/public/"
                  "sonatype-oss-public" "https://oss.sonatype.org/content/groups/public/"}
@@ -38,5 +38,6 @@
                        "-XX:+HeapDumpOnOutOfMemoryError"
                        #_"-XX:+PrintCompilation"
                        #_"-XX:+UnlockDiagnosticVMOptions"
-                       #_"-XX:+PrintInlining"]
+                       #_"-XX:+PrintInlining"
+                       #_"-Djavax.net.debug=all"]
   :global-vars {*warn-on-reflection* true})
